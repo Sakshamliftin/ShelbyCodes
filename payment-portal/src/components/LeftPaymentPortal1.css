@@ -1,0 +1,221 @@
+.billing-summary2 {
+  margin: 0;
+  align-self: stretch;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Istok Web";
+}
+.billing-summary2,
+.membership1,
+.price1 {
+  position: relative;
+  z-index: 1;
+}
+.membership1 {
+  align-self: stretch;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.price1 {
+  white-space: nowrap;
+}
+.per1 {
+  margin: 0;
+}
+.per-year1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.price-duration,
+.rupee {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.price-duration {
+  flex-direction: column;
+  padding: 9px 0 0;
+  font-size: 23px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.rupee {
+  flex-direction: row;
+  gap: 8px;
+  font-size: 62px;
+}
+.info-1-inner {
+  align-self: stretch;
+  height: 176px;
+  position: relative;
+  background-color: #d9d9d9;
+  border-top: 1px solid rgba(0, 0, 0, 0.24);
+  box-sizing: border-box;
+  display: none;
+}
+.discount1,
+.subtotal1 {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.subtotal1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  min-width: 104px;
+}
+.discount1 {
+  min-width: 82px;
+  white-space: nowrap;
+}
+.promo-code-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 0 0;
+  font-size: 24px;
+}
+.total-due-today-label {
+  width: 380px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.add-promotion-code1 {
+  position: relative;
+  font-size: 22px;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  color: #0c94f6;
+  z-index: 1;
+}
+.info-12,
+.info-2-child {
+  background-color: #d9d9d9;
+  border-top: 1px solid rgba(0, 0, 0, 0.24);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.info-12 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 37px 0 50px;
+  gap: 29px;
+  min-height: 176px;
+  z-index: 1;
+}
+.info-2-child {
+  height: 176px;
+  width: 440px;
+  position: relative;
+  display: none;
+}
+.total-due-today1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 1;
+}
+.info-2,
+.left-payment-portal1 {
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.info-2 {
+  align-self: stretch;
+  border-top: 1px solid rgba(0, 0, 0, 0.24);
+  flex-direction: row;
+  padding: 39px 0;
+  gap: 103px;
+  min-height: 176px;
+  z-index: 1;
+}
+.left-payment-portal1 {
+  width: 526px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 224px 43px;
+  gap: 20px;
+  min-width: 526px;
+  text-align: left;
+  font-size: 26px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 1200px) {
+  .left-payment-portal1 {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .billing-summary2 {
+    font-size: 26px;
+  }
+  .price1 {
+    font-size: 50px;
+  }
+  .left-payment-portal1 {
+    padding-top: 146px;
+    padding-bottom: 146px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .left-payment-portal1 {
+    padding: 95px 21px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .billing-summary2 {
+    font-size: 19px;
+  }
+  .membership1 {
+    font-size: 16px;
+  }
+  .price1 {
+    font-size: 37px;
+  }
+  .per-year1 {
+    font-size: 18px;
+  }
+  .subtotal1 {
+    font-size: 21px;
+  }
+  .discount1 {
+    font-size: 19px;
+  }
+  .total-due-today-label {
+    flex-wrap: wrap;
+  }
+  .add-promotion-code1 {
+    font-size: 18px;
+  }
+  .total-due-today1 {
+    font-size: 21px;
+  }
+  .info-2 {
+    gap: 51px;
+    flex-wrap: wrap;
+  }
+}
